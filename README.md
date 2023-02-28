@@ -23,13 +23,13 @@ export default () => ({
   ],
   technologies: {
     frontEnd: {
-      js/ts: ["vue", "react", "jQuery", "angular"],
+      js/ts: ["vue", "react", "jQuery", "angular", "knockout"],
       css: ["tailwind", "bootstrap", "materialize"],
       testing: ["cypress", "jest"]
     },
     backEnd: {
       php: ["symfony", "laravel"],
-      js/ts: ["node", "express", "nestjs"],
+      js/ts: ["node", "express", "nestjs", "dust"],
       python: ["django"],
     },
     databases: ["mongo", "mysql", "redis"],
